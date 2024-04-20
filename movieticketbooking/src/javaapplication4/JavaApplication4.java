@@ -13,6 +13,7 @@ import java.sql.DriverManager;
  *
  * @author RAMPRASATH M K
  */
+@SuppressWarnings("unused")
 public class JavaApplication4 {
     Connection conn=null;
 public static Connection ConnecrDb(){
