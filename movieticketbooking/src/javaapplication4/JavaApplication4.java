@@ -11,14 +11,14 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author PRATAP KUMAR
+ * @author RAMPRASATH M K
  */
 public class JavaApplication4 {
     Connection conn=null;
 public static Connection ConnecrDb(){
     try{
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn =DriverManager.getConnection("jdbc:mysql://localhost/db","root","");
+        Connection conn =DriverManager.getConnection("jdbc:mysql://localhost/java_dbmovies","root","");
         return conn;
     }
     catch(Exception e)
@@ -28,6 +28,4 @@ public static Connection ConnecrDb(){
     
 return null;
 }
-
-   
 }

@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CANCEL",
+            "request": "launch",
+            "mainClass": "CANCEL",
+            "projectName": "movie-ticket-booking-system-Netbeans_73fcf4d2"
+        },
+        {
+            "type": "java",
+            "name": "cardselection",
+            "request": "launch",
+            "mainClass": "cardselection",
+            "projectName": "movie-ticket-booking-system-Netbeans_73fcf4d2"
+        },
+        {
+            "type": "java",
+            "name": "login",
+            "request": "launch",
+            "mainClass": "login",
+            "projectName": "movie-ticket-booking-system-Netbeans_73fcf4d2"
+        },
+        {
+            "type": "java",
+            "name": "movie",
+            "request": "launch",
+            "mainClass": "movie",
+            "projectName": "movie-ticket-booking-system-Netbeans_73fcf4d2"
+        },
+        {
+            "type": "java",
+            "name": "payment",
+            "request": "launch",
+            "mainClass": "payment",
+            "projectName": "movie-ticket-booking-system-Netbeans_73fcf4d2"
+        },
+        {
+            "type": "java",
+            "name": "recepit",
+            "request": "launch",
+            "mainClass": "recepit",
+            "projectName": "movie-ticket-booking-system-Netbeans_73fcf4d2"
+        },
+        {
+            "type": "java",
+            "name": "recepit1",
+            "request": "launch",
+            "mainClass": "recepit1",
+            "projectName": "movie-ticket-booking-system-Netbeans_73fcf4d2"
+        },
+        {
+            "type": "java",
+            "name": "register",
+            "request": "launch",
+            "mainClass": "register",
+            "projectName": "movie-ticket-booking-system-Netbeans_73fcf4d2"
+        },
+        {
+            "type": "java",
+            "name": "login(1)",
+            "request": "launch",
+            "mainClass": "ticketbooking.login",
+            "projectName": "movie-ticket-booking-system-Netbeans_73fcf4d2"
+        },
+        {
+            "type": "java",
+            "name": "ticketbooking",
+            "request": "launch",
+            "mainClass": "ticketbooking.ticketbooking",
+            "projectName": "movie-ticket-booking-system-Netbeans_73fcf4d2"
+        }
+    ]
+}

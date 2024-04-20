@@ -7,7 +7,7 @@
 -- Server version: 5.1.53
 -- PHP Version: 5.3.4
 
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+-- SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";  -- default no commment in this line
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `register` (
 --
 
 INSERT INTO `register` (`name`, `email`, `password`) VALUES
-('pratap', 'pratap12@gmail.com', 'pratap');
+('ramprasath', 'ramprasath12@gmail.com', 'ramprasath');
 
 -- --------------------------------------------------------
 

@@ -212,7 +212,7 @@ public class movie extends javax.swing.JFrame {
          try
    {
        Class.forName("com.mysql.jdbc.Driver");
-       c=DriverManager.getConnection("jdbc:mysql://localhost/db","root","");
+       c=DriverManager.getConnection("jdbc:mysql://localhost/java_dbmovies","root","");
        s=c.createStatement();
         b=(String) jComboBox2.getSelectedItem();
        e=(String) jComboBox3.getSelectedItem();
