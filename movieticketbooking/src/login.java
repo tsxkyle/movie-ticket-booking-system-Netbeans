@@ -148,7 +148,8 @@ public class login extends javax.swing.JFrame {
          Connection c=null;
          Statement  s=null;
          ResultSet rs=null;
-         int flag=0;
+         @SuppressWarnings("unused")
+        int flag=0;
     
          //if(s1.equals("submit"))
    {
@@ -158,7 +159,8 @@ public class login extends javax.swing.JFrame {
        c=DriverManager.getConnection("jdbc:mysql://localhost/java_dbmovies","root","");
        s=c.createStatement();
        String a=jTextField1.getText();
-       String b=jPasswordField1.getText();
+       @SuppressWarnings("deprecation")
+    String b=jPasswordField1.getText();
        rs=s.executeQuery("select name,password from register");
        while(rs.next())
        {       //flag=1;
